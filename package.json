@@ -1,0 +1,20 @@
+{
+  "name": "claude-hud",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Custom status line (HUD) for Claude Code CLI",
+  "bin": {
+    "claude-hud": "./src/index.ts"
+  },
+  "scripts": {
+    "start": "bun src/index.ts",
+    "demo": "CLAUDE_HUD_NOW=1795270000 bun src/index.ts < fixtures/sample.json",
+    "test": "bun test",
+    "typecheck": "bunx tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.9.0"
+  }
+}

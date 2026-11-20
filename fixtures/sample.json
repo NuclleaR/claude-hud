@@ -1,0 +1,89 @@
+{
+  "cwd": "/home/serhii/dev/claude-hud/src",
+  "session_id": "00000000-0000-0000-0000-000000000000",
+  "version": "2.1.290",
+  "model": {
+    "id": "claude-opus-5-5",
+    "display_name": "Opus 5.5"
+  },
+  "workspace": {
+    "current_dir": "/home/serhii/dev/claude-hud/src",
+    "project_dir": "/home/serhii/dev/claude-hud",
+    "added_dirs": [
+      "/home/serhii/dev/skills"
+    ],
+    "repo": {
+      "host": "github.com",
+      "owner": "NuclleaR",
+      "name": "claude-hud"
+    }
+  },
+  "cost": {
+    "total_cost_usd": 1.2345,
+    "total_duration_ms": 754000,
+    "total_api_duration_ms": 210000,
+    "total_lines_added": 156,
+    "total_lines_removed": 23
+  },
+  "context_window": {
+    "total_input_tokens": 120000,
+    "total_output_tokens": 8000,
+    "context_window_size": 1000000,
+    "used_percentage": 19.6,
+    "remaining_percentage": 38,
+    "current_usage": {
+      "input_tokens": 6000,
+      "output_tokens": 1200,
+      "cache_creation_input_tokens": 10000,
+      "cache_read_input_tokens": 180000
+    }
+  },
+  "exceeds_200k_tokens": false,
+  "effort": {
+    "level": "medium"
+  },
+  "rate_limits": {
+    "five_hour": {
+      "used_percentage": 42,
+      "resets_at": 1795278100
+    },
+    "seven_day": {
+      "used_percentage": 6,
+      "resets_at": 1795799200
+    }
+  },
+  "pr": {
+    "number": 42,
+    "url": "https://github.com/NuclleaR/claude-hud/pull/42",
+    "review_state": "pending"
+  },
+  "output_style": {
+    "name": "Explanatory"
+  },
+  "thinking": {
+    "enabled": true
+  },
+  "prompt_cache": {
+    "warm": true,
+    "caching_observed": true,
+    "ttl": "5m",
+    "expires_at": 1795270190,
+    "requests": 14,
+    "misses": 1,
+    "expected_rebuilds": 0,
+    "hit_ratio": 0.93,
+    "cache_write_tokens": 10000,
+    "miss_recache_tokens": 0,
+    "last_miss_at": null,
+    "last_miss_cause": null,
+    "miss_causes": {},
+    "recache_tokens_if_cold": null
+  },
+  "worktree": {
+    "name": "cache-hud",
+    "path": "/home/serhii/dev/claude-hud/.claude/worktrees/cache-hud",
+    "branch": "cache-hud",
+    "original_cwd": "/home/serhii/dev/claude-hud",
+    "original_branch": "main"
+  }
+}
